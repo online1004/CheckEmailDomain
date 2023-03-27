@@ -17,3 +17,5 @@ checkemail.checkDomain('naver.com', 'online1004@online1004.xyz') # (False, 'Inva
 checkemail.checkDomain(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@hotmail.com') # (True, 'Vaild Domain')
 checkemail.checkDomain(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@online1004.xyz') # (False, 'Invaild Domain')
 ```
+
+https://pypi.org/project/checkemail/
