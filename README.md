@@ -7,15 +7,17 @@ Developed by online1004 (c) 2023
 
 # Examples of How To Use
 ```python
-import checkemail 
+import checkemail as ce 
 
 # With a String
-checkemail.checkDomain('gmail.com', 'online1004@gmail.com') # (True, 'Vaild Domain')
-checkemail.checkDomain('naver.com', 'online1004@online1004.xyz') # (False, 'Invaild Domain')
+rs1 = ce.emailInfo('gmail.com', 'online1004@gmail.com').checkDomain() # (True, 'Vaild Domain')
+rs2 = ce.emailInfo('naver.com', 'online1004@online1004.xyz').checkDomain() # (False, 'Invaild Domain')
 
 # With a List
-checkemail.checkDomain(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@hotmail.com') # (True, 'Vaild Domain')
-checkemail.checkDomain(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@online1004.xyz') # (False, 'Invaild Domain')
+rs3 = ce.emailInfo(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@hotmail.com').checkDomain() # (True, 'Vaild Domain')
+rs4 = ce.emailInfo(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@online1004.xyz').checkDomain() # (False, 'Invaild Domain')
+
+print(f'{rs1}\n{rs2}\n{rs3}\n{rs4}')
 ```
 
 https://pypi.org/project/checkemail/
