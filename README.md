@@ -1,7 +1,7 @@
 ## checkemail
 Do you need to verify the domain used in the email?
 
-Use the checkemail module to work more comfortably
+Use the checkemail module to work more comfortably.
 
 Developed by online1004 (c) 2023
 
