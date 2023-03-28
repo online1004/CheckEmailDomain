@@ -1,11 +1,11 @@
-# checkemail
+## checkemail
 Do you need to verify the domain used in the email?
 
 Use the checkemail module to work more comfortably
 
 Developed by online1004 (c) 2023
 
-# Examples of How To Use
+## Examples of How To Use
 ```python
 import checkemail as ce 
 
@@ -20,4 +20,4 @@ rs4 = ce.emailInfo(['gmail.com', 'naver.com', 'hotmail.com'], 'online1004@online
 print(f'{rs1}\n{rs2}\n{rs3}\n{rs4}')
 ```
 
-https://pypi.org/project/checkemail/
+[Pypi Module](https://pypi.org/project/checkemail/)
